@@ -6,14 +6,14 @@ import {
 	SheetHeader,
 	SheetTrigger,
 } from '@/components/ui/sheet'
-import { AlignCenter } from 'lucide-react'
+import { AlignJustify } from 'lucide-react'
 import React from 'react'
 
 const Mobile = () => {
 	return (
 		<Sheet>
 			<SheetTrigger asChild className='md:hidden'>
-				<AlignCenter />
+				<AlignJustify className='primary' />
 			</SheetTrigger>
 			<SheetContent side={'right'}>
 				<SheetHeader className=''>

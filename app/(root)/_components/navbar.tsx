@@ -8,7 +8,7 @@ import Mobile from './mobile'
 const Navbar = () => {
 	return (
 		<div className='fixed inset-0 z-40 h bg-background/70 backdrop-blur-xl'>
-			<div className='container mx-auto flex h-full max-w-7xl items-center justify-between border-b'>
+			<div className='container mx-auto flex h-[64px] max-w-7xl items-center justify-between border-b'>
 				<Logo />
 				<div className='hidden items-center gap-8 pl-2 md:flex'>
 					{/* {navLinks.map(nav => (

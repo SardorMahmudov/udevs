@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from './_componenets/hero'
 
 const Page = () => {
-	return <div>Page</div>
+	return (
+		<>
+			<Hero />
+		</>
+	)
 }
 
 export default Page
