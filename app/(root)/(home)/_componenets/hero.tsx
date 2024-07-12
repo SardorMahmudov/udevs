@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 const Hero = () => {
 	return (
 		<div className='hero-module md:mt-44'>
-			<div className='container mx-auto grid min-h-[80vh] max-w-6xl grid-cols-2 gap-8 max-md:grid-cols-1 max-md:pt-40'>
+			<div className='container mx-auto grid min-h-[100vh] max-w-6xl grid-cols-2 gap-8 max-md:grid-cols-1 max-md:pt-40'>
 				<div className='flex flex-col md:text-left md:items-start text-center items-center'>
 					<Image
 						src={'/logo.svg'}
