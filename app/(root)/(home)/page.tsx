@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './_componenets/hero'
-import Services from './_componenets/services'
+import Direction from './_componenets/direction'
+import Command from './_componenets/command'
 
 const Page = () => {
 	return (
 		<>
 			<Hero />
-			<Services />
+			<Direction />
+			<Command />
 		</>
 	)
 }

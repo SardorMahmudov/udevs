@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Services = () => {
+const Direction = () => {
 	return (
 		<div className='container mx-auto max-w-6xl py-10 md:mt-0 mt-28'>
 			<h1 className='primary md:text-left text-center md:text-[64px] text-[32px] font-extrabold'>
@@ -85,4 +85,4 @@ const Services = () => {
 	)
 }
 
-export default Services
+export default Direction
