@@ -7,6 +7,10 @@ import ErpSystems from './_componenets/erp-systems'
 import UiDesign from './_componenets/ui-design'
 import Optimization from './_componenets/optimization'
 import ItConsulting from './_componenets/it-consulting'
+import Delever from './_componenets/delever'
+import Smsuz from './_componenets/smsuz'
+import Goodzone from './_componenets/goodzone'
+import Iman from './_componenets/iman'
 
 const Page = () => {
 	return (
@@ -19,6 +23,10 @@ const Page = () => {
 			<UiDesign />
 			<Optimization />
 			<ItConsulting />
+			<Delever />
+			<Smsuz />
+			<Goodzone />
+			<Iman />
 		</>
 	)
 }

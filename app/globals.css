@@ -165,4 +165,28 @@
 		background-position: 50%;
 		background-size: cover;
 	}
+
+	.car {
+		background-color: rgba(255, 87, 34, 0.2);
+		color: #ff5722;
+		display: inline-flex;
+		align-items: center;
+		padding: 4px 16px;
+		border-radius: 100px;
+		font-size: 14px;
+		line-height: 28px;
+		font-weight: 500;
+	}
+	.msg {
+		background-color: rgba(68, 115, 229, 0.2);
+		color: #4473e5;
+	}
+	.eco {
+		background-color: rgba(245, 0, 0, 0.2);
+		color: #f50000;
+	}
+	.iman {
+		background-color: rgba(1, 202, 176, 0.2);
+		color: #01cab0;
+	}
 }
