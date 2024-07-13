@@ -2,7 +2,10 @@ import Image from 'next/image'
 
 const UiDesign = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 md:mt-5 min-h-[130vh] md:max-md:pt-40 hero-module'>
+		<div
+			id='design'
+			className='container mx-auto max-w-6xl md:py-10 md:mt-5 min-h-[130vh] md:max-md:pt-40 hero-module'
+		>
 			<h1 className='primary md:text-[64px] text-[32px] font-extrabold md:mb-16 mb-4'>
 				UI / UX design
 			</h1>

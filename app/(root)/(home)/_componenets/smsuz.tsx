@@ -3,7 +3,10 @@ import React from 'react'
 
 const Smsuz = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[95vh] md:max-md:pt-40 hero-module mt-32'>
+		<div
+			id='sms'
+			className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[95vh] md:max-md:pt-40 hero-module mt-32'
+		>
 			<div className='md:flex md:justify-between items-center gap-8 max-md:grid-cols-1'>
 				<div className='max-w-[550px]'>
 					<div className=''>

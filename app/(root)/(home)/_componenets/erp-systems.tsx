@@ -3,7 +3,10 @@ import React from 'react'
 
 const ErpSystems = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[130vh] md:max-md:pt-40 bg-slate-100/80 pt-6 pb-10'>
+		<div
+			id='erp'
+			className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[130vh] md:max-md:pt-40 bg-slate-100/80 pt-6 pb-10'
+		>
 			<h1 className='primary md:text-[64px] text-[32px] font-extrabold md:mb-16 mb-4'>
 				ERP systems
 			</h1>

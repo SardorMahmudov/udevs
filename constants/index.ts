@@ -14,11 +14,11 @@ export const lngs = [
 ]
 
 export const services = [
-	{ route: 'mobile', label: 'Development of mobile applications' },
+	{ route: 'mobil', label: 'Development of mobile applications' },
 	{ route: 'erp', label: 'Development and implementation ERP systems' },
 	{ route: 'design', label: 'User interface, User experience design' },
-	{ route: 'consulting', label: 'IT consulting' },
 	{ route: 'optimization', label: 'Optimization IT consulting infrastructure' },
+	{ route: 'consulting', label: 'IT consulting' },
 ]
 
 export const portfolio = [

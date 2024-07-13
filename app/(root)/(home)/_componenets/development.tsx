@@ -2,7 +2,10 @@ import Image from 'next/image'
 
 const Development = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 my-0 md:mt-20 min-h-[130vh] md:max-md:pt-40 mb-16 hero-module'>
+		<div
+			id='mobil'
+			className='container mx-auto max-w-6xl md:py-10 my-0 md:mt-20 min-h-[130vh] md:max-md:pt-40 mb-16 hero-module'
+		>
 			<h1 className='primary md:text-[64px] text-[32px] font-extrabold md:mb-16 mb-4 md:max-w-[1200px] max-w-[270px] md:leading-none leading-10'>
 				Development of mobile applications
 			</h1>

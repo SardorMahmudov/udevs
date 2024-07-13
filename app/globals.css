@@ -66,6 +66,9 @@
 	body {
 		@apply bg-background text-foreground font-monrope;
 	}
+	html {
+		scroll-behavior: smooth;
+	}
 	.h {
 		height: 72px;
 	}

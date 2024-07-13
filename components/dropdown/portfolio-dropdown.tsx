@@ -23,20 +23,22 @@ const PortfolioDropdown = () => {
 				<DropdownMenuGroup>
 					<p className='header-module--title pt-2'>Portfolio</p>
 					{portfolio.map(item => (
-						<DropdownMenuItem
-							key={item.route}
-							className='cursor-pointer gap-6 pl-6 mb-4'
-						>
-							<Image
-								src={`/assets/portfolio/${item.route}.svg`}
-								alt={item.label}
-								width={48}
-								height={48}
-							/>
-							<span className='ml-2 font-space-grotesk font-medium'>
-								{item.label}
-							</span>
-						</DropdownMenuItem>
+						<a href={`#${item.route}`}>
+							<DropdownMenuItem
+								key={item.route}
+								className='cursor-pointer gap-6 pl-6 mb-4'
+							>
+								<Image
+									src={`/assets/portfolio/${item.route}.svg`}
+									alt={item.label}
+									width={48}
+									height={48}
+								/>
+								<span className='ml-2 font-space-grotesk font-medium'>
+									{item.label}
+								</span>
+							</DropdownMenuItem>
+						</a>
 					))}
 				</DropdownMenuGroup>
 			</DropdownMenuContent>

@@ -20,19 +20,20 @@ const Navbar = () => {
 							{nav.name}
 						</Link>
 					))} */}
-					<a className='header-module--itemLink' href='/directs'>
+					<a className='header-module--itemLink' href='#directs'>
 						Direction
 					</a>
-					<a className='header-module--itemLink' href='/directs'>
+					<a className='header-module--itemLink' href='#command'>
 						Command
 					</a>
+					<a href='#mobil'>
+						<ServicesDropdown />
+					</a>
 
-					<ServicesDropdown />
-
-					<a className='header-module--itemLink' href='/directs'>
+					<a className='header-module--itemLink' href='#tools'>
 						Tools
 					</a>
-					<a className='header-module--itemLink' href='/directs'>
+					<a className='header-module--itemLink' href='#clients'>
 						Clients
 					</a>
 
@@ -40,7 +41,7 @@ const Navbar = () => {
 					<LanguageDropdown />
 
 					<div className='call-to-action min-w-[112px] max-w-[248px]'>
-						<a className='header-module--itemLink' href='/contact'>
+						<a className='header-module--itemLink' href='#contact'>
 							Contact
 						</a>
 					</div>

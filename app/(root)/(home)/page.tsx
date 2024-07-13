@@ -13,6 +13,7 @@ import Goodzone from './_componenets/goodzone'
 import Iman from './_componenets/iman'
 import HowToWork from './_componenets/how-to-work'
 import Contact from './_componenets/contact'
+import OurClinets from './_componenets/our-clinets'
 
 const Page = () => {
 	return (

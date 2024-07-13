@@ -3,7 +3,10 @@ import React from 'react'
 
 const Command = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 md:mt-20 mt-28 min-h-[130vh] md:max-md:pt-40 pt-10 bg-slate-100/80'>
+		<div
+			id='command'
+			className='container mx-auto max-w-6xl md:py-10 md:mt-20 mt-28 min-h-[130vh] md:max-md:pt-40 pt-10 bg-slate-100/80'
+		>
 			<h1 className='primary md:text-[64px] text-[32px] font-extrabold mb-16 md:mt-8 mt-0'>
 				Team
 			</h1>
