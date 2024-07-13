@@ -11,6 +11,8 @@ import Delever from './_componenets/delever'
 import Smsuz from './_componenets/smsuz'
 import Goodzone from './_componenets/goodzone'
 import Iman from './_componenets/iman'
+import HowToWork from './_componenets/how-to-work'
+import Contact from './_componenets/contact'
 
 const Page = () => {
 	return (
@@ -27,6 +29,8 @@ const Page = () => {
 			<Smsuz />
 			<Goodzone />
 			<Iman />
+			<HowToWork />
+			<Contact />
 		</>
 	)
 }

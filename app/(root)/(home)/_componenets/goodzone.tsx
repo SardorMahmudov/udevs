@@ -3,7 +3,7 @@ import React from 'react'
 
 const Goodzone = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[130vh] md:max-md:pt-40 hero-module'>
+		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 min-h-[130vh] md:max-md:pt-0 hero-module'>
 			<div className='md:flex md:justify-between items-center  gap-8 max-md:grid-cols-1'>
 				<div className='md:hidden'>
 					<Image
