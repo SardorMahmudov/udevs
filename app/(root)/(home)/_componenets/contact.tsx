@@ -10,12 +10,12 @@ import {
 
 const Contact = () => {
 	return (
-		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 md:max-md:pt-40 pt-6 pb-10 '>
+		<div className='container mx-auto max-w-6xl md:py-10 my-5 md:my-10 md:max-md:pt-40 pt-6 pb-10 hero-module'>
 			<h1 className='primary md:text-[64px] text-[32px] font-extrabold md:mb-16 mb-4'>
 				Contact us
 			</h1>
 			<div className='box'>
-				<h3 className='text-xl pb-8 text-black/90 font-black'>
+				<h3 className='text-xl pb-8 text-black/95 font-black'>
 					Leave us a message
 				</h3>
 				<div className='flex justify-between '>
