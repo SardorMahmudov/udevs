@@ -1,0 +1,10 @@
+{
+	"direction": "Direction",
+	"command": "Command",
+	"tools": "Tools",
+	"clients": "Clients",
+	"contact": "Contact",
+	"services": "Services",
+	"portfolio": "Portfolio",
+	"language": "Language"
+}

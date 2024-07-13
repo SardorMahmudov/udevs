@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import {
 	DropdownMenu,
@@ -9,13 +10,16 @@ import {
 import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 import { services } from '@/constants'
-
+import { useTranslation } from '@/i18n/client'
+import { useParams } from 'next/navigation'
 const ServicesDropdown = () => {
+	const { lng } = useParams()
+	const { t } = useTranslation(lng as string)
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
 				<div className='flex header-module--itemLink cursor-pointer'>
-					Services
+					{t('services')}
 					<ChevronDown className='w-4 pb-1 pl-1' />
 				</div>
 			</DropdownMenuTrigger>

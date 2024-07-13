@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -9,13 +9,17 @@ import {
 import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 import { portfolio } from '@/constants'
+import { useParams } from 'next/navigation'
+import { useTranslation } from '@/i18n/client'
 
 const PortfolioDropdown = () => {
+	const { lng } = useParams()
+	const { t } = useTranslation(lng as string)
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
 				<div className='flex header-module--itemLink cursor-pointer'>
-					Portfolio
+					{t('portfolio')}
 					<ChevronDown className='w-4 pb-1 pl-1' />
 				</div>
 			</DropdownMenuTrigger>
