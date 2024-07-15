@@ -13,6 +13,7 @@ import Goodzone from './_componenets/goodzone'
 import Iman from './_componenets/iman'
 import HowToWork from './_componenets/how-to-work'
 import Contact from './_componenets/contact'
+import Tools from './_componenets/tools'
 
 const Page = () => {
 	return (
@@ -25,6 +26,7 @@ const Page = () => {
 			<UiDesign />
 			<Optimization />
 			<ItConsulting />
+			<Tools />
 			<Delever />
 			<Smsuz />
 			<Goodzone />
